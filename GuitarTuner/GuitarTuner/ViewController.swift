@@ -86,5 +86,10 @@ class ViewController: UIViewController {
         player.numberOfLoops = -1
         player.play()
     }
+    
+    @IBAction func stop(_ sender: Any) {
+        player.stop()
+    }
+    
 }
 
