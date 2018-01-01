@@ -106,12 +106,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <state key="normal" title="❚❚">
+                                <state key="normal" title="  ▍▍">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UP6-Zs-RwG"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92145264149999995" green="0.89292767629194647" blue="0.84520292821753085" alpha="0.54735659246575341" colorSpace="custom" customColorSpace="sRGB"/>
