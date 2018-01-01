@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,30 +35,56 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playELow(_ sender: Any) {
-        
         prepareAudio(filename: "E2")
         
+        // audio loops an infinite number of times
         player.numberOfLoops = -1
         player.play()
-        if player.currentTime == 1.8 {
-            player.currentTime = 0
-        }
-        print(player.duration)
     }
     
     @IBAction func playA(_ sender: Any) {
+        
+        prepareAudio(filename: "A2")
+        
+        // audio loops an infinite number of times
+        player.numberOfLoops = -1
+        player.play()
     }
     
     @IBAction func playD(_ sender: Any) {
+        
+        prepareAudio(filename: "D3")
+        
+        // audio loops an infinite number of times
+        player.numberOfLoops = -1
+        player.play()
     }
     
     @IBAction func playG(_ sender: Any) {
+        
+        prepareAudio(filename: "G3")
+        
+        // audio loops an infinite number of times
+        player.numberOfLoops = -1
+        player.play()
     }
     
     @IBAction func playB(_ sender: Any) {
+        
+        prepareAudio(filename: "B3")
+        
+        // audio loops an infinite number of times
+        player.numberOfLoops = -1
+        player.play()
     }
     
     @IBAction func playEHigh(_ sender: Any) {
+        
+        prepareAudio(filename: "E4")
+        
+        // audio loops an infinite number of times
+        player.numberOfLoops = -1
+        player.play()
     }
 }
 
