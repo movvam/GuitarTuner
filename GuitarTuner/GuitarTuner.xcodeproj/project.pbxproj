@@ -12,6 +12,7 @@
 		0D8FC4B71FFA032C001D8806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8FC4B51FFA032C001D8806 /* Main.storyboard */; };
 		0D8FC4B91FFA032C001D8806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8FC4B81FFA032C001D8806 /* Assets.xcassets */; };
 		0D8FC4BC1FFA032C001D8806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8FC4BA1FFA032C001D8806 /* LaunchScreen.storyboard */; };
+		0D8FC4C41FFA0700001D8806 /* Guitar Strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D8FC4C31FFA0700001D8806 /* Guitar Strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0D8FC4B81FFA032C001D8806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D8FC4BB1FFA032C001D8806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D8FC4BD1FFA032C001D8806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8FC4C31FFA0700001D8806 /* Guitar Strings */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Guitar Strings"; path = "../../../../../Downloads/Guitar Strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0D8FC4B11FFA032C001D8806 /* AppDelegate.swift */,
 				0D8FC4B31FFA032C001D8806 /* ViewController.swift */,
 				0D8FC4B51FFA032C001D8806 /* Main.storyboard */,
+				0D8FC4C31FFA0700001D8806 /* Guitar Strings */,
 				0D8FC4B81FFA032C001D8806 /* Assets.xcassets */,
 				0D8FC4BA1FFA032C001D8806 /* LaunchScreen.storyboard */,
 				0D8FC4BD1FFA032C001D8806 /* Info.plist */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8FC4C41FFA0700001D8806 /* Guitar Strings in Resources */,
 				0D8FC4BC1FFA032C001D8806 /* LaunchScreen.storyboard in Resources */,
 				0D8FC4B91FFA032C001D8806 /* Assets.xcassets in Resources */,
 				0D8FC4B71FFA032C001D8806 /* Main.storyboard in Resources */,
