@@ -35,6 +35,7 @@
                                                 <rect key="frame" x="0.0" y="90" width="30" height="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
+                                                    <action selector="playA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4S8-jR-Wsw"/>
                                                     <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMZ-u6-jom"/>
                                                 </connections>
                                             </button>
@@ -42,6 +43,7 @@
                                                 <rect key="frame" x="0.0" y="180" width="30" height="30"/>
                                                 <state key="normal" title="D"/>
                                                 <connections>
+                                                    <action selector="playD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u1V-2G-GX0"/>
                                                     <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DxY-Xb-T4p"/>
                                                 </connections>
                                             </button>
@@ -55,12 +57,14 @@
                                                 <state key="normal" title="G"/>
                                                 <connections>
                                                     <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3s-zz-6ca"/>
+                                                    <action selector="playG:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpT-H7-5nt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smx-aF-BxK">
                                                 <rect key="frame" x="0.0" y="90" width="30" height="30"/>
                                                 <state key="normal" title="B"/>
                                                 <connections>
+                                                    <action selector="playB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="az6-NJ-CDT"/>
                                                     <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xBN-J5-oWF"/>
                                                 </connections>
                                             </button>
@@ -68,6 +72,7 @@
                                                 <rect key="frame" x="0.0" y="180" width="30" height="30"/>
                                                 <state key="normal" title="E"/>
                                                 <connections>
+                                                    <action selector="playEHigh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NkN-bx-eBo"/>
                                                     <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhV-c5-UOj"/>
                                                 </connections>
                                             </button>

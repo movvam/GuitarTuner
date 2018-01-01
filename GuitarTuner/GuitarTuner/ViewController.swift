@@ -24,6 +24,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func prepareAudio(filename: String){
+        do{
+            let audioPath = Bundle.main.path(forResource: filename, ofType: ".mp3")
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+            
+        }catch{
+            print("error")
+        }
+    }
 
     @IBAction func playELow(_ sender: Any) {
         
@@ -37,15 +47,19 @@ class ViewController: UIViewController {
         print(player.duration)
     }
     
-    func prepareAudio(filename: String){
-        do{
-            let audioPath = Bundle.main.path(forResource: filename, ofType: ".mp3")
-            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            
-        }catch{
-            print("error")
-        }
+    @IBAction func playA(_ sender: Any) {
     }
     
+    @IBAction func playD(_ sender: Any) {
+    }
+    
+    @IBAction func playG(_ sender: Any) {
+    }
+    
+    @IBAction func playB(_ sender: Any) {
+    }
+    
+    @IBAction func playEHigh(_ sender: Any) {
+    }
 }
 
