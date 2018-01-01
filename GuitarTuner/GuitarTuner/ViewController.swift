@@ -33,7 +33,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playELow(_ sender: Any) {
+        player.numberOfLoops = -1
         player.play()
+        if player.currentTime == 1.8 {
+            player.currentTime = 0
+        }
+        print(player.duration)
     }
     
 }
