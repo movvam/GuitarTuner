@@ -17,13 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        do{
-            let audioPath = Bundle.main.path(forResource: "E2", ofType: ".mp3")
-            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            
-        }catch{
-            print("error")
-        }
         
     }
 
@@ -33,12 +26,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playELow(_ sender: Any) {
+        
+        prepareAudio(filename: "E2")
+        
         player.numberOfLoops = -1
         player.play()
         if player.currentTime == 1.8 {
             player.currentTime = 0
         }
         print(player.duration)
+    }
+    
+    func prepareAudio(filename: String){
+        do{
+            let audioPath = Bundle.main.path(forResource: filename, ofType: ".mp3")
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+            
+        }catch{
+            print("error")
+        }
     }
     
 }

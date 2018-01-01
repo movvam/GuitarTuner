@@ -18,26 +18,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-2X-ESB">
-                                <rect key="frame" x="84" y="136" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="E"/>
-                                <connections>
-                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K1X-1s-XJj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acm-B8-Bnb">
-                                <rect key="frame" x="252" y="136" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="G"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="edP-nB-i5s">
+                                <rect key="frame" x="117.5" y="136" width="140" height="210"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="OSn-DH-p26">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="210"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-2X-ESB">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K1X-1s-XJj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBH-4s-GLi">
+                                                <rect key="frame" x="0.0" y="90" width="30" height="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMZ-u6-jom"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LQ-49-ufg">
+                                                <rect key="frame" x="0.0" y="180" width="30" height="30"/>
+                                                <state key="normal" title="D"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DxY-Xb-T4p"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="bXv-sU-8oI">
+                                        <rect key="frame" x="110" y="0.0" width="30" height="210"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGh-ca-K46">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <state key="normal" title="G"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3s-zz-6ca"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smx-aF-BxK">
+                                                <rect key="frame" x="0.0" y="90" width="30" height="30"/>
+                                                <state key="normal" title="B"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xBN-J5-oWF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxu-3T-Rzq">
+                                                <rect key="frame" x="0.0" y="180" width="30" height="30"/>
+                                                <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhV-c5-UOj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="edP-nB-i5s" secondAttribute="trailing" constant="117.5" id="7Xe-OA-ZJ5"/>
+                            <constraint firstItem="edP-nB-i5s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117.5" id="PWu-uX-ElH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="edP-nB-i5s" secondAttribute="bottom" constant="321" id="WdE-VX-bNH"/>
+                            <constraint firstItem="edP-nB-i5s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="coW-id-mtl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
         </scene>
     </scenes>
 </document>
