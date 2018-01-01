@@ -22,6 +22,9 @@
                                 <rect key="frame" x="84" y="136" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="E"/>
+                                <connections>
+                                    <action selector="playELow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K1X-1s-XJj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acm-B8-Bnb">
                                 <rect key="frame" x="252" y="136" width="30" height="30"/>
