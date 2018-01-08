@@ -124,7 +124,7 @@
                                     <action selector="dropD:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ehk-9c-GHX"/>
                                 </connections>
                             </switch>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="Wex-5e-BkC">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" usesAttributedText="YES" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="Wex-5e-BkC">
                                 <rect key="frame" x="33" y="575" width="56" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
