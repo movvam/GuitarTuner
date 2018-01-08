@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        topString.setTitle("E", for: .normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -98,10 +99,10 @@ class ViewController: UIViewController {
     
     @IBAction func dropD(_ sender: Any) {
         if dropSwitch.isOn{
-            topString.titleLabel?.text = "D"
+            topString.setTitle("D", for: .normal)
             lowStringSound = "D2"
         }else if !dropSwitch.isOn{
-            topString.titleLabel?.text = "E"
+            topString.setTitle("E", for: .normal)
             lowStringSound = "E2"
         }
     }
