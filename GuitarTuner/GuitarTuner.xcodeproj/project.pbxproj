@@ -13,6 +13,7 @@
 		0D0BAD041FFA2E9B00129F44 /* B3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BAD011FFA2E9B00129F44 /* B3.mp3 */; };
 		0D0BAD071FFA2ED100129F44 /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BAD051FFA2ED100129F44 /* G3.mp3 */; };
 		0D0BAD081FFA2ED100129F44 /* E4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BAD061FFA2ED100129F44 /* E4.mp3 */; };
+		0D7CD3CA2002FAFE00F38BB2 /* D2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CD3C92002FAFD00F38BB2 /* D2.mp3 */; };
 		0D8FC4B21FFA032C001D8806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8FC4B11FFA032C001D8806 /* AppDelegate.swift */; };
 		0D8FC4B41FFA032C001D8806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8FC4B31FFA032C001D8806 /* ViewController.swift */; };
 		0D8FC4B71FFA032C001D8806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8FC4B51FFA032C001D8806 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		0D0BAD011FFA2E9B00129F44 /* B3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B3.mp3; path = ../../StringsSounds/B3.mp3; sourceTree = "<group>"; };
 		0D0BAD051FFA2ED100129F44 /* G3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G3.mp3; path = ../../StringsSounds/G3.mp3; sourceTree = "<group>"; };
 		0D0BAD061FFA2ED100129F44 /* E4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E4.mp3; path = ../../StringsSounds/E4.mp3; sourceTree = "<group>"; };
+		0D7CD3C92002FAFD00F38BB2 /* D2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D2.mp3; path = ../../StringsSounds/D2.mp3; sourceTree = "<group>"; };
 		0D8FC4AE1FFA032C001D8806 /* GuitarTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8FC4B11FFA032C001D8806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8FC4B31FFA032C001D8806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				0D8FC4B11FFA032C001D8806 /* AppDelegate.swift */,
 				0D8FC4B31FFA032C001D8806 /* ViewController.swift */,
 				0D8FC4B51FFA032C001D8806 /* Main.storyboard */,
+				0D7CD3C92002FAFD00F38BB2 /* D2.mp3 */,
 				0D0BACFD1FFA1AD800129F44 /* E2.mp3 */,
 				0D0BAD001FFA2E9B00129F44 /* A2.mp3 */,
 				0D0BACFF1FFA2E9B00129F44 /* D3.mp3 */,
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7CD3CA2002FAFE00F38BB2 /* D2.mp3 in Resources */,
 				0D0BAD081FFA2ED100129F44 /* E4.mp3 in Resources */,
 				0D0BAD041FFA2E9B00129F44 /* B3.mp3 in Resources */,
 				0D0BAD021FFA2E9B00129F44 /* D3.mp3 in Resources */,

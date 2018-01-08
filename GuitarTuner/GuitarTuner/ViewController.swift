@@ -12,11 +12,16 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer = AVAudioPlayer()
+    var lowStringSound: String = "E2"
 
+    @IBOutlet weak var topString: UIButton!
+    
+    @IBOutlet weak var dropSwitch: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +40,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playELow(_ sender: Any) {
-        prepareAudio(filename: "E2")
+        prepareAudio(filename: lowStringSound)
         
         // audio loops an infinite number of times
         player.numberOfLoops = -1
@@ -89,6 +94,16 @@ class ViewController: UIViewController {
     
     @IBAction func stop(_ sender: Any) {
         player.stop()
+    }
+    
+    @IBAction func dropD(_ sender: Any) {
+        if dropSwitch.isOn{
+            topString.titleLabel?.text = "D"
+            lowStringSound = "D2"
+        }else if !dropSwitch.isOn{
+            topString.titleLabel?.text = "E"
+            lowStringSound = "E2"
+        }
     }
     
 }
